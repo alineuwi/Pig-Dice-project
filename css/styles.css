@@ -43,4 +43,9 @@
   h1 {
     font-size: 70px;
   }
-  
+  body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUp3fk6w7qv1vnMZspci6x5jJXUTePFRRq8-fmVUtGAyhPrT3b);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
