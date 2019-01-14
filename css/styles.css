@@ -56,4 +56,11 @@
   }
   img {
     width: 20%;
-  }  
+  }
+  .btn {
+    margin: 15px;
+    padding: 5px;
+    background-color: #563A3A;
+    color: white;
+  }
+    
