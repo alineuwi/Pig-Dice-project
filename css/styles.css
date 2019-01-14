@@ -49,3 +49,9 @@
     background-size: cover;
     text-align: center;
   }
+  #header {
+    border: 5px ridge #F72DBD;
+    background-color: pink;
+    text-align: center;
+  }
+  
