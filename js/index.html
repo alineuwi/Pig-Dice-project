@@ -41,6 +41,7 @@
                         <option value="3">One player game (Human vs Computer - Hard Mode)</option>
                         <option value="2">Two player game (Human vs Human)</option>
                     </select>
+
                     <button id="startGame" class="btn btn-lg">Begin a new game!</button>
                 </div>
             </div>
@@ -54,21 +55,26 @@
                 </div>
                 <h4><span id="p1NameOutput">Player 1</span>'s Bank total:<span id="p1BankTotal"></span></h4>
             </div>
-            <div class="col-md-4" id="gameScore"></div>
-            <!--<h4>Dice roll:<span id="rollOutput"></span></h4>-->
-            <div class="displayDice1"></div>
-            <div class="displayDice2"></div>
-            <h4>Turn total:<span id="turnTotal"></span></h4>
-            <h4>Current Player:<span id="currentPlayer"></span></h4>
-            <button id="rollButton" class="btn btn-lg">Roll the pigs!</button>
-            <button id="bankButton" class="btn btn-lg">Bank my points!</button>
-            <h3 id="winner"></h3>
+            <div class="col-md-4" id="gameScore">
+                <!--<h4>Dice roll:<span id="rollOutput"></span></h4>-->
+                <div class="displayDice1"></div>
+                <div class="displayDice2"></div>
+                <h4>Turn total:<span id="turnTotal"></span></h4>
+                <h4>Current Player:<span id="currentPlayer"></span></h4>
+                <button id="rollButton" class="btn btn-lg">Roll the pigs!</button>
+                <button id="bankButton" class="btn btn-lg">Bank my points!</button>
+                <h3 id="winner"></h3>
+            </div>
+            <div class="col-md-4" id="player2Working">
+                <div class="form-group nameEntry2">
+                    <label for="p2Name">Enter name for Player 2:</label>
+                    <input id="p2Name" type="text" class="form-control">
+                    <button id="p2NameSubmit" class="btn btn-lg">Submit</button>
+                </div>
+                <h4><span id="p2NameOutput">Player 2</span>'s Bank total:<span id="p2BankTotal"></span></h4>
+            </div>
         </div>
-        <div class="col-md-4" id="player2Working"></div>
-        <div class="form-group nameEntry2"></div>
-        <label for="p2Name">Enter name for Player 2:</label>
-        <input id="p2Name" type="text" class="form-control">
-        <button id="p2NameSubmit" class="btn btn-lg">Submit</button>
     </div>
-    <h4><span id="p2NameOutput">Player 2</span>'s Bank total:<span id="p2BankTotal"></span></h4>
 </body>
+
+</html>
