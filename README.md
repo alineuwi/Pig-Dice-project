@@ -1,10 +1,21 @@
-# Pig Dice
+# Pig Dice Date 15th,jan 2019
 
-#### Pig Dice is a game of luck and intrigue where players roll a die until they get a one or choose to stop and bank their total. First player to bank 100 points wins. {November 2016}
-
-#### By UWIMANA  Aline**_
+#### By UWIMANA  Aline**
 
 ## Description
+
+Pig Dice is a game of luck and intrigue where players roll a die until they get a one or choose to stop and bank their total. First player to bank 100 points wins. 
+## Setup/Installation Requirements
+
+Source code available at _repository_
+-internet connection
+-code editor
+
+## Known Bugs
+
+-this project still have bugs on easy level, it doesnt allow single player to play against computer its still display input field for two user.
+
+## BDD
 
 Specifications
 
@@ -32,17 +43,10 @@ Specifications
  * Input: player 2 bank = 101
  * Output: Congratulations player 2!
 
-## Setup/Installation Requirements
-
-Source code available at _repository_
-
-## Known Bugs
-
-Turn total does not display on second roll on easy computer's turn.
 
 ## Support and contact details
 
-Contact one of the authors at: bradcopenhaver@gmail.com or jonathan.thom1990@gmail.com
+Contact one of the authors at: alikimy02@gmail.com
 
 ## Technologies Used
 
@@ -53,6 +57,5 @@ Contact one of the authors at: bradcopenhaver@gmail.com or jonathan.thom1990@gma
 
 ### License
 
-This project is licensed under the MIT license.
 
 Copyright (c) 2019 **UWIMANA Aline **
